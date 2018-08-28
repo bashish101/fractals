@@ -13,7 +13,7 @@ def setup_window():
 
 def save_output():
 	canvas = turtle.getscreen().getcanvas()
-	canvasvg.saveall('output.svg', canvas)
+	canvasvg.saveall('recaman.svg', canvas)
 
 def plot_recaman(width, 
 		 height, 
